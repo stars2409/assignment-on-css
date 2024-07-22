@@ -1,0 +1,769 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #712aff;
+}
+
+/* HEADER SECTION STYLING START */
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container h1 {
+  color: rgb(123, 0, 255);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.container nav {
+  width: 40%;
+  height: 70%;
+ 
+}
+
+.container nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+ 
+}
+
+.container nav ul li {
+  list-style: none;
+  color: rgb(102, 0, 255);
+}
+
+.container nav ul li a {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(111, 0, 255);
+}
+
+.container nav ul li a:hover {
+  color: #7700ff;
+}
+
+/* HEADER SECTION STYLING END */
+
+/* HERO SECTION STYLING START */
+
+.hero {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #712aff;
+}
+
+.hero .container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .left-side {
+  height: 55%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+
+.left-side .social-links {
+  width: 45%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.social-links .social-icons {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(253, 251, 254);
+  border-radius: 50%;
+}
+
+.social-icons i {
+  color: white;
+  font-size: 16px;
+}
+
+.container .left-side h2 {
+  color: white;
+  font-size: 45px;
+}
+
+.container .left-side p {
+  color: white;
+  font-size: 18px;
+}
+
+.container .left-side .buttons {
+  width: 40%;
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons .btn1 {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+  background: transparent;
+  border: 2px solid #ffffff;
+}
+
+.buttons .btn1 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.buttons .btn1:hover {
+  background-color: #ffffff;
+}
+
+.buttons .btn2 {
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+  background: #8e5dff;
+  border: 2px solid #8c4aff;
+}
+
+.buttons .btn2 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border-radius: 26px;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  color: rgb(129, 51, 255);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.buttons .btn2:hover {
+  background-color: transparent;
+}
+
+.container .right-side {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.container .right-side img {
+  width: fit-content;
+  height: 100%;
+}
+
+/* HERO SECTION STYLING END */
+
+/* ABOUT SECTION STYLING START */
+
+#about {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #712aff;
+}
+
+#about .container {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .container .about-me {
+  width: 50%;
+  height: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#about .container .about-me h2 {
+  color: white;
+  font-size: 35px;
+}
+
+#about .container .about-me p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#about .container .about-me span {
+  color: #5448ff;
+}
+
+#about .container .about-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .about-container .about-me-img {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#about .container .about-me-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+#about .container .about-me-text p {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+#about .container .about-me-text button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border-radius: 26px;
+  height: 40px;
+  width: 100px;
+  background: #8710ff;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#about .container .about-me-text button:hover {
+  background-color: transparent;
+  border: 2px solid #894aff;
+}
+
+/* ABOUT SECTION STYLING END */
+
+/* WORK SECTION STYLING START */
+
+#work {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #712aff;
+}
+
+#work .container {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#work .container h2 {
+  color: white;
+  font-size: 35px;
+}
+
+#work .container .services {
+  width: 95%;
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#work .container .services .service {
+  width: 28%;
+  height: 90%;
+  background: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+}
+
+#work .container .services .service .service-icon {
+  width: 70%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#work .container .services .service .service-icon i {
+  color: rgb(136, 0, 255);
+  font-size: 25px;
+}
+
+#work .container .services .service .service-icon h3 {
+  color: rgb(123, 0, 255);
+  font-size: 15px;
+}
+
+#work .container .services .service p {
+  color: rgb(119, 0, 255);
+  font-size: 10px;
+  text-align: center;
+}
+
+/* WORK SECTION STYLING END */
+
+/* VIDEO SECTION STYLING START */
+
+#video {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+}
+
+/* VIDEO SECTION STYLING END */
+
+/* RESUME SECTION STYLING START */
+
+#resume {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #712aff;
+}
+
+#resume h2 {
+  color: white;
+  font-size: 35px;
+}
+
+#resume .resume-container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#resume .resume-container .resume-section1 {
+  width: 50%;
+  height: 90%;
+  background: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+}
+
+#resume .resume-container .resume-section1 h3 {
+  color: rgb(140, 8, 255);
+  font-size: 25px;
+}
+
+#resume .resume-container .resume-section1 .resume-items {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume-items .resume-item1 {
+  width: 50%;
+  height: 100%;
+}
+
+.resume-item1 h4 {
+  color: rgb(133, 11, 255);
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.resume-item1 p {
+  color: rgb(125, 10, 240);
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.resume-item1 .ul-list {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(146, 21, 255);
+  font-size: 10px;
+}
+
+.resume-item1 .ul-list ul {
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.resume-item1 .ul-list ul li {
+  margin-bottom: 15px;
+  color: #931ef9;
+  font-size: 9px;
+}
+
+#resume .resume-container .resume-section {
+  width: 20%;
+  height: 90%;
+  background: 2px solid #fff;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#resume .resume-container .resume-section h3 {
+  color: white;
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+#resume .resume-container .resume-section .resume-item {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#resume .resume-container .resume-section .resume-item h4 {
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#resume .resume-container .resume-section .resume-item p {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.resume-section .resume-item .ul-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.resume-item .ul-list ul {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.resume-section .resume-item ul li {
+  color: #fff;
+  font-size: 15px;
+}
+
+.resume-section .resume-h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  width: 90%;
+}
+
+.resume-section .resume-h3 h4 {
+  color: white;
+  font-size: 25px;
+}
+
+.resume-section .resume-h3 p {
+  color: white;
+  font-size: 18px;
+}
+
+.resume-section .skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 60%;
+  width: 70%;
+}
+
+.skills-list li {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* RESUME SECTION STYLING END */
+
+/* CONTACT SECTION STYLING START */
+
+#contact {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #712aff;
+}
+
+#contact .container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact .container .contact-text {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+#contact .container .contact-text .get-in-touch1 {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: start;
+}
+
+#contact .container .contact-text .get-in-touch1 p {
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+#contact .container .contact-text .get-in-touch2 {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact .container .contact-text .get-in-touch2 p {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#contact .container .contact-text .get-in-touch3 {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: start;
+}
+
+#contact .container .contact-text .get-in-touch3 p {
+  color: white;
+  font-size: 20px;
+  padding-left: 17px;
+}
+
+#contact .container .contact-text i {
+  color: white;
+  font-size: 20px;
+}
+
+#contact .container h2 {
+  color: white;
+  font-size: 30px;
+}
+
+#contact .container p {
+  color: white;
+  font-size: 20px;
+}
+
+#contact .container form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact .container form .contact-button {
+  width: 80%;
+}
+
+#contact .container form .form-group {
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#contact .container form .form-group label {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+#contact .container form .form-group input {
+  width: 80%;
+  height: 35px;
+  border-radius: 12px;
+  background: #23263a;
+  outline: none;
+  border: 2px solid #fff;
+  color: white;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+#contact .container form .form-group textarea {
+  width: 80%;
+  border-radius: 12px;
+  background: #23263a;
+  outline: none;
+  border: 2px solid #fff;
+  color: white;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+#contact .container form .form-group input:focus {
+  border: 4px solid #ff4a57;
+}
+
+#contact .container form .form-group textarea:focus {
+  border: 4px solid #ff4a57;
+}
+
+#contact .container form button {
+  width: 100px;
+  height: 35px;
+  border-radius: 12px;
+  background: #5e03a3;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#contact .container form button:hover {
+  background: transparent;
+  border: 2px solid #ff4a57;
+}
+
+/* CONTACT SECTION STYLING END */
+
+/* FOOTER SECTION STYLING START */
+
+footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+footer .container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container p {
+  color: white;
+  font-size: 20px;
+}
+
+/* FOOTER SECTION STYLING END */
